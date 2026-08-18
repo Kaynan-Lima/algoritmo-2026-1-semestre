@@ -1,6 +1,10 @@
+/*
+    pergunta
 
+    calcule o consumo médio de combustivel de um automovomel,
+    pedir para o usuario entar com a distancia(km) e volume(litros)
 
-
+*/
 
 #include <iostream>
 using namespace std;
@@ -13,7 +17,7 @@ int main()
     cin>>volume;
     if (volume==0)
     {
-        cout<<"nunca dividir�s por zero";
+        cout<<"nunca dividirás por zero";
     }
     
     else
